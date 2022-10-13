@@ -4,7 +4,7 @@ This is a simple neovim tree sitter for the jack langauge from [nand2tetris](htt
 
 ### 1. Add the parser to your config
 
-```
+``` lua
 local parser_config = require "nvim-treesitter.parsers".get_parser_configs()
 parser_config.jack = {
   install_info = {
